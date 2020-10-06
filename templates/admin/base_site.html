@@ -1,0 +1,13 @@
+{% extends "admin/base.html" %}
+{% load static %} 
+
+{% block title %}{{ title }} | {{ site_title|default:_('RMS')}}{%endblock %}
+
+{% block branding %}
+<a href="{% url 'admin:index' %}" class="django-admin-logo">
+    <!-- Django Administration -->
+    <img height="60" src="{% static "core/repairs.jpeg" %}" alt="{{ site_header|default:_('Administración - RMS') }}">
+</a>
+{% endblock branding %}
+
+{% block nav-global %}{% endblock %}
