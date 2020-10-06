@@ -1,4 +1,4 @@
-# rms
+# RMS
 
 Repair Management System
 
