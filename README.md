@@ -2,4 +2,4 @@
 
 Repair Management System
 
-Para llevar registros de las reparaciones de las soldadoras
+Little system to management repair sheets. (In this case, electronic devices)
